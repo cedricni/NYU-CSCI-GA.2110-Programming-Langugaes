@@ -1,0 +1,112 @@
+V "GNAT Lib v2020"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV MAX_TASKS=1+
+
+U assignmentmain%b	assignmentmain.adb	ef8dc083 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W matrixmult%s		matrixmult.adb		matrixmult.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20200819050642 76789da1 ada%s
+D a-except.ads		20200819050642 a7106115 ada.exceptions%s
+D a-inteio.ads		20200819050642 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200819050642 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20200819050640 0240fc73 ada.real_time%s
+D a-stream.ads		20200819050642 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050643 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050643 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200819050643 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
+D assignmentmain.adb	20231009031030 8c37e294 assignmentmain%b
+D interfac.ads		20200819050644 5ab55268 interfaces%s
+D i-c.ads		20200819050644 c624fa43 interfaces.c%s
+D i-cstrea.ads		20200819050644 e53d8b8e interfaces.c_streams%s
+D matrixmult.ads	20231008224159 3b057ede matrixmult%s
+D system.ads		20200819050647 085b6ffb system%s
+D s-atacco.ads		20200819050645 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20200819050645 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200819050645 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050645 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050645 078245e4 system.file_control_block%s
+D s-imgint.ads		20200819050645 02dbe0c2 system.img_int%s
+D s-multip.ads		20200819050645 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20200819111918 49f7716a system.os_constants%s
+D s-osinte.ads		20200819050640 01b3ad47 system.os_interface%s
+D s-parame.ads		20200819050646 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050646 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050646 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050646 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200819050646 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200819050646 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050646 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20200819050641 801abd01 system.task_info%s
+D s-taspri.ads		20200819050641 f40ac08d system.task_primitives%s
+D s-taprop.ads		20200819050641 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20200819050641 88fba9ad system.tasking%s
+D s-tassta.ads		20200819050641 cca55c94 system.tasking.stages%s
+D s-traent.ads		20200819050646 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050646 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050646 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [assignmentmain standard 5 11 none]
+G r c none [assignmentmain standard 5 11 none] [matmult matrixmult 4 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 2r6 18r13 34r13 49r13 51r10
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 11|2w10 18r17 34r17
+X 8 a-textio.ads
+57K13*Text_IO 727e16 11|1w10 49r17 51r14
+264U14*New_Line 11|51s22
+465U14*Put 11|49s25
+465a19 Item{string} 11|49r29
+X 9 a-tiinio.ads
+59U14*Get 11|18s33[3|18] 34s33[3|18]
+60i7 Item{integer} 11|18r37[3|18] 34r37[3|18]
+X 11 assignmentmain.adb
+5U11*AssignmentMain 5b11 61l5 61t19
+6a4 A{15|3A9} 19m13 59r23
+6a7 B{15|3A9} 35m13 59r26
+6a10 Result{15|3A9} 49r51 59m29
+8b4 Reader1_Done{boolean} 22m7 29r17
+9b4 Reader2_Done{boolean} 38m7 56r14
+10b4 Multiplication_Done{boolean} 44r17 60m4
+12t9 Reader1 13b14 23l8 23t15
+14i7 Temp{integer} 18m45 19r24
+16i11 I{integer} 19r15
+17i14 J{integer} 19r18
+25t9 Reader2 26b14 39l8 39t15
+27i7 Temp{integer} 34m45 35r24
+32i11 I{integer} 35r15
+33i14 J{integer} 35r18
+41t9 Printer 42b14 53l8 53t15
+47i11 I{integer} 49r58
+48i14 J{integer} 49r61
+X 15 matrixmult.ads
+1K9*MatrixMult 11|3w6 6r19 16r19 17r22 32r19 33r22 47r19 48r22 59r4 15|5e15
+2i4*SIZE{integer} 11|16r30 17r33 32r30 33r33 47r30 48r33
+3A9*Matrix_Type(integer)<integer><integer> 11|6r30
+4U14*MatMult 11|59s15
+X 30 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+
